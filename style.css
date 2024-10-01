@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+.container{
+    width: 45%;
+    height: 57vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 25px  red;
+}
+.display #screen{
+    width: 95%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding: .5em;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px skyblue;
+}
+.btns{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btns .row button{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px navy,
+    -5px -5px -8px #ffff;
+}
+.btns .row button:hover{
+    color: gold;
+    background-color: violet;
+    animation: 0s;
+    transition: 0.5s;
+    background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+}
+.btns{
+    background-image: linear-gradient(blue, red);
+    color: red;
+}
